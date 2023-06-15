@@ -1,0 +1,75 @@
+*, body {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .header {
+    height: 90px;
+  }
+  .logo {
+    font-weight: 700;
+  }
+  .list{
+    text-decoration: none;
+    font-weight: 600;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  .desc {
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #666;
+  }
+  p {
+    font-weight: 400;
+    color: #666;
+  }
+  .active1 {
+    border: solid 1px black;
+    border-radius: 8px;
+  }
+  .carousel {
+    height: 55vh;
+  }
+  .active2 {
+    border: solid 1px black;
+    border-radius: 20px;
+  }
+  .bottom {
+    height: 350px;
+  }
+  .borders div {
+    z-index: 9999;
+    pointer-events: none;
+    background-color: transparent;
+    border-color: #252525;
+    border-style: solid;
+    height: 90px;
+    position: fixed;
+    width: 90px;
+  }
+  .br1 {
+    border-width: 15px 15px 0 0;
+    right: 0;
+    top: 0;
+  }
+  .br2 {
+    border-width: 15px 0 0 15px;
+    top: 0;
+    left: 0;
+  }
+  .br3 {
+    border-width: 0 0 15px 15px;
+    bottom: 0;
+    left: 0;
+  }
+  .br4 {
+    border-width: 0 15px 15px 0;
+    bottom: 0;
+    right: 0;
+  }
+  .icon {
+    color: #666;
+    font-size: 1.7rem;
+  }
